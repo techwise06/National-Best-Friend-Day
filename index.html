@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>National Best Friend Day </title>
+  <style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /* background: linear-gradient(to right, #bea156, #d76682);  */
+/* background: linear-gradient(to right, #ffd700, #ff69b4);  */
+background-image: url(" ./img/sea-the-sky-clouds-sunset-wallpaper-preview.jpg");
+backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center;
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 10px auto;
+      max-width: 600px;
+    }
+
+    .gallery {
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: auto;
+      height:120px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-style: italic;
+      font-size: 0.95em;
+      color: #b6b8d7;
+    }
+ .grow{
+  text-align: center;
+  font-size: 2.5rem;
+  color:#ff69b4;
+  text-shadow: 0 0 2px rgb(45, 4, 45);  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+     .groww{
+  text-align: center; 
+  font-size: 1.2rem;
+  font-family: monospace;
+  color: #f7f7f7;
+  text-shadow: 0 0 5px rgb(255, 253, 255);
+
+    }
+    
+.quote-slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  min-height: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px 25px;
+  border-radius: 12px;
+  background-color: snow transparent   ;
+  color: #ffffff;
+  box-sizing: border-box;
+ 
+  line-height: 1.5;
+  /* box-shadow: 0 4px 24px 0 rgba(37, 146, 146, 0.2), 0 5px 4px rgba(29, 28, 28, 0.133); */
+
+}
+
+.quote-slider p {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) scale(0.95);
+  opacity: 0;
+  animation:   fadeScale 25s infinite;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.quote-slider p:nth-child(1) { animation-delay: 0s; }
+.quote-slider p:nth-child(2) { animation-delay: 5s; }
+.quote-slider p:nth-child(3) { animation-delay: 10s; }
+.quote-slider p:nth-child(4) { animation-delay: 15s; }
+.quote-slider p:nth-child(5) { animation-delay: 20s; }
+
+@keyframes fadeScale {
+  0%   { opacity: 0; transform: translateY(15px) scale(1); }
+  10%  { opacity: 1; transform: translateY(0px) scale(1); }
+  30%  { opacity: 1; transform: translateY(0px) scale(1); }
+  40%  { opacity: 0; transform: translateY(-20px) scale(1); }
+  100% { opacity: 0; }
+}
+
+ 
+
+/* Responsive for small screens */
+@media (max-width: 576px) {
+  .quote-slider {
+    font-size: 0.9rem;
+    padding: 15px 18px;
+    min-height: 180px;
+  }
+}
+
+.memory {
+  border-left: 3px solid #ff69b4; /* pink vertical line */
+  padding-left: 20px;
+  margin: 30px auto;
+  width: fit-content;
+}
+
+.memory a {
+  display: block;
+  color: #c5d9dd;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 10px 0;
+  position: relative;
+  transition: all 0.3s ease; 
+}
+
+.memory a::before {
+  content: '';
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #ff69b4;
+  border-radius: 50%;
+}
+
+.memory a:hover {
+  color: #009cda;
+  text-shadow: #0fd187 0px 0px 5px;
+  
+  text-decoration: underline;
+  transform: translateX(1px);
+   
+}
+
+  </style>
+</head>
+<body>
+
+  <h1 class="grow">  National Best Friend Day </h1>
+  <h6 class="groww">
+    You’ve been my friend for so long, I’ve almost forgotten which one of us is the bad influence.
+  </h6>
+  <p class="groww">
+    Thank you for always being there. This one’s for you!
+  </p>
+<div  class="quote-slider" >
+  
+<p class="memory color-white bg-pink">Rare as is true love, true friendship is rarer than a blue moon.</p>
+  <p class="memory color-white bg-pink">True friendship is like sound health; the value of it is seldom known until it is lost.</p>
+  <p class="memory color-white bg-pink">Friendship is the golden thread that ties the heart of all the world.</p>
+  <p class="memory color-white bg-pink">Friendship is born at that moment when one person says to another, “What! You too? I thought I was the only one.”</p>
+  <p class="memory color-white bg-pink">A strong friendship doesn’t need daily conversation, doesn’t always need togetherness, as long as the relationship lives in the heart, true friends will never part.</p>
+  </div>
+
+    <div class="gallery">
+    <img src="https://cdn.pixabay.com/photo/2017/03/19/10/49/valentines-day-background-2156174_960_720.jpg" alt="img1">
+    <img src="./img/image_do-your-friends-feel-comfortable-around-you.jpg" alt="img2">
+   <img src="https://cdn.pixabay.com/photo/2020/10/14/20/31/hands-5655424_960_720.png" alt="img3">
+  </div>
+
+  
+ <div class="quote-slider">
+
+  <p class="memory color-white bg-pink">စစ်မှန်သော ချစ်ခြင်းမေတ္တာသည် ရှားပါးသကဲ့သို့ စစ်မှန်သော ခင်မင်ရင်းနှီးမှုသည် အပြာရောင်လထက် ရှားပါးသည်။.</p>
+  <p class="memory color-white bg-pink">စစ်မှန်သော မိတ်ဆွေဖွဲ့မှုသည် ကျန်းမာရေးနှင့်တူသည်။ ပျောက်ကွယ်သွားသည်အထိ တန်ဖိုးကို သိဖို့ ရှားပါတယ်။</p>
+  <p class="memory color-white bg-pink">ချစ်ကြည်ရေးသည် ကမ္ဘာတစ်ဝှမ်းလုံး၏ နှလုံးသားကို ချိတ်ဆက်ပေးသော ရွှေချည်မျှင်ဖြစ်သည်။</p>
+  <p class="memory color-white bg-pink">လူတစ်ယောက်က "ဘာလဲ! မင်းလည်း တစ်ယောက်တည်းပဲလို့ ငါထင်တယ်" လို့ လူတစ်ယောက်က ပြောတဲ့အခါ ခင်မင်ရင်းနှီးမှုက မွေးဖွားလာခဲ့တယ်။</p>
+  <p class="memory color-white bg-pink">ခိုင်မြဲသောခင်မင်မှုတစ်ခုသည် နေ့စဉ်စကားပြောဆိုရန်မလိုအပ်ပါ၊ အမြဲတမ်းအတူတကွရှိရန်မလိုအပ်ပါ၊ အချစ်ရေးသည် နှလုံးသားထဲတွင်ရှိနေသရွေ့ စစ်မှန်သောသူငယ်ချင်းများသည် ဘယ်တော့မှခွဲထွက်မည်မဟုတ်ပါ။</p>
+  
+
+</div>
+
+ 
+
+
+  <!-- ================= -->
+
+  <div class="memory">
+ <a href="javaScript:void(0)">Let's cherish the moments that make our friendship special</a>
+ <a href="javaScript:void(0)">Friendship is the sweetest gift of all</a>
+ <a href="javaScript:void(0)">Let's make more unforgettable memories together</a>
+ <a href="javaScript:void(0)">Happy Best Friends Day to the one who knows you best</a>
+ <a href="javaScript:void(0)">Happy Best Friends Day to the one who makes every day brighter!</a>
+
+  </div>
+
+    <footer>
+      <p  class="footer">&copy; Copyright <span  id="autoyear"></span> Tech Wise </p>
+  </footer>
+ 
+<!-- footerscript -->
+ <script>
+    
+    const  autoyear = document.getElementById('autoyear');
+    const getyear = new Date().getUTCFullYear();
+    autoyear.textContent = getyear;
+
+ </script>
+
+  <!-- 🎵 Background music -->
+  <audio autoplay loop hidden>
+    <source src="/audio/OASIX X NADI_နင် ( OFFICIAL MUSIC VIDEO ).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+ 
+
+</body>
+</html>
+
+ 
+
+<!-- 
+  <p class="footer">Celebrate the bond of friendship today and every day!</p>
+  <p class="footer">Share your favorite memories with your best friend!</p>
+  <p class="footer">Let's cherish the moments that make our friendship special!</p>
+  <p class="footer">Friendship is the sweetest gift of all!</p>
+  <p class="footer">Here's to the laughter, the tears, and everything in between!</p>
+  <p class="footer">May your friendship continue to grow and flourish!</p>
+  <p class="footer">Happy Best Friends Day to you and your best friend!</p>
+  <p class="footer">Let's make more unforgettable memories together!</p>
+  <p class="footer">Friendship is a treasure that lasts a lifetime!</p>
+  <p class="footer">Here's to the adventures, the inside jokes, and the unbreakable bond!</p>
+  <p class="footer">Celebrate the joy of having a best friend by your side!</p>
+  <p class="footer">Friendship is the sunshine that brightens our lives!</p>
+  <p class="footer">Let's raise a toast to the beautiful friendship we share!</p>
+  <p class="footer">May your friendship be filled with love, laughter, and endless support!</p>
+  <p class="footer">Happy Best Friends Day to the one who knows you best!</p>
+  <p class="footer">Here's to the memories we've created and the ones yet to come!</p>
+  <p class="footer">Friendship is the glue that holds our hearts together!</p>
+  <p class="footer">Let's celebrate the bond that makes life so much sweeter!</p>
+  <p class="footer">Happy Best Friends Day to the one who makes every day brighter!</p> 
+-->
+
+
+
+
+
